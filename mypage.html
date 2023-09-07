@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예은 과제</title>
+
+    <title>웹 페이지의 구성 요소</title>
+<style>
+	body { background-color : rgb(250, 248, 252); color : green;
+				margin-left : 40px; margin-right : 40px;}
+	h3 { text-align : center; color : rgb(42, 3, 86);}
+	hr { height : 5px; border : solid rgb(12, 205, 137);
+				background-color : rgb(12, 205, 137) }
+
+    .y {
+        color: rgb(205, 205, 9);
+        font-size: 20px;
+    }
+    .g {
+        color: rgb(62, 210, 62);
+        font-size: 20px;
+    }
+
+</style>
+<script>
+	function show() { // <img>에 이미지 달기
+		document.getElementById("fig").src = "https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/cnoC/image/REAdMfTD-xTNOc4VqmdTkOZh8w8"
+	}
+	function hide() { // <img>에 이미지 제거
+		document.getElementById("fig").src= "";
+	}
+</script>
+</head>
+<body>
+    <h3 onmouseover="show()" onmouseout="hide()">예은</h3>
+<hr>
+<div><img id="fig" src=""></div>
+정보통신공학과 2023958001 강예은<br>
+이건 그냥 글씨 <span class="y">이건 노란색 글씨</span>
+이것도 그냥 글씨 <span class="g">이건 연두색 글씨</span>
+</body>
+</html>
