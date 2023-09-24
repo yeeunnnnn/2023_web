@@ -1,0 +1,29 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(201, 230, 255);
+}
+header {
+    background-color: rgb(255, 245, 159);
+    height: 20%;
+}
+nav {
+    background-color: rgb(255, 224, 167);
+    height: 72%;
+    float: left;
+    width: 20%;
+}
+a {
+    text-decoration: none;
+}
+section {
+    height: 72%;
+}
+h1 {
+    text-align: center;
+}
+footer {
+    background-color: rgb(183, 106, 202);
+    height: 15%;
+}

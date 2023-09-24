@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션 응용</title>
+    <style>
+        @keyframes fast {
+            0% {
+                margin-left: 100%;
+            }
+            100% {
+                margin-right: 100%;
+            }
+        }
+        img {
+            position: absolute;
+        }
+        p {
+            margin-left: 100%;
+            padding-left: 25px;
+            white-space: nowrap;
+        }
+        div {
+            animation: fast 3s;
+        }
+    </style>
+</head>
+<body>
+    <h3>애니메이션 응응</h3>
+    <hr>
+    <div>
+    <img src="./물음표.png" alt="물음표사진">
+    <p>질문 있습니다.</p>
+</div>
+</body>
+</html>

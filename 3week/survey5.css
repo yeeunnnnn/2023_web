@@ -1,0 +1,32 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+h1 {
+    color: brown;
+    text-align: center;
+}
+header {
+    background-color: rgb(255, 245, 159);
+    height: 20%;
+}
+span {
+    color: darkblue;
+    font-weight: bolder;
+}
+div {
+    background-color: lightpink;
+}
+p {
+    font-family: "휴먼편지체";
+}
+section {
+    height: 55%;
+}
+footer {
+    background-color: rgb(183, 106, 202);
+    height: 15%;
+    text-indent: 1em;
+    text-align: left;
+}

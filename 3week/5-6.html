@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션</title>
+    <style>
+        @keyframes circle {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .rotation {
+            width: 200px;
+            height: 200px;
+            animation: circle 1s linear infinite;
+        }
+        @keyframes circle2 {
+            0% {
+                transform: rotate(-90deg);
+            }
+            50% {
+                transform: rotate(90deg);
+            }
+            100% {
+                transform: rotate(-90deg);
+            }
+        }
+        .rotation2 {
+            width: 200px;
+            height: 200px;
+            animation: circle2 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h3>어지러워요</h3>
+    <hr>
+    <img class= "rotation" src="./스폰지밥.png" alt="스폰지밥사진" width="150" height="150">
+
+    <br><br><br><br><br><br><br><br>
+    <h3>어지러워요</h3>
+    <hr>
+    <img class= "rotation2" src="./스폰지밥.png" alt="스폰지밥사진" width="150" height="150">
+</body>
+</html>
