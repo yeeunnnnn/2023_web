@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1,2</title>
+</head>
+<body>
+    <script>
+        function big(num1, num2) {
+        num1 = parseInt(num1);
+        num2 = parseInt(num2);
+
+    if (isNaN(num1) || isNaN(num2)) {
+        return "올바른 숫자가 아닙니다.";
+    }
+
+    if (num1 > num2) {
+        return num1;
+    } else if (num2 > num1) {
+        return num2;
+    } else {
+        return "두 숫자는 같습니다.";
+    }
+}
+        let b = big("625", "555");
+        document.write("큰수="+b)
+
+        document.write("<br><br><br><br><br><br><br><br><br><br>")
+    </script>
+    <script>
+        function pr (symbbol, count) {
+            for (let i = 0; i < count; i++) {
+                document.write(symbbol);
+            }
+        }
+        pr("%", 5);
+    </script>
+</body>
+</html>

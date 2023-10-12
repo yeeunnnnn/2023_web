@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book 객체 만들기</title>
+    <script>// Object()를 이용 
+    let book1 = new Object();
+    book1.title1 = "HTML5";
+    book1.author1 = "황기태";
+    book1.price1 = "20000"
+    </script>
+
+    <script>// 리터럴 표기법 이용
+    let book2 = {
+        title2: "HTML5",
+        author2: "황기태",
+        price2: "20000",
+    }
+    </script>
+
+    <script>// 프로토타입 이용
+        function book3(title3, author3, price3) {
+            this.title3 = title3;
+            this.author3 = author3;
+            this.price3 = price3;
+        }
+    </script>
+</head>
+<body>
+    <h3>book 객체 만들기</h3>
+    <hr>
+    <p><h4>Object()를 이용</h4></p>
+    <script> // Object()를 이용 
+    document.write("book:"+book1.title1+", "+book1.author1+", "+book1.price1)
+    document.write("<br>")
+    </script>
+
+    <p><h4>리터럴 표기법 이용</h4></p>
+    <script> // 리터럴 표기법 이용
+    document.write("book:"+book2.title2+", "+book2.author2+", "+book2.price2)
+    </script>
+
+    <p><h4>프로토타입 이용</h4></p>
+    <script> // 프로토타입 이용
+        let Book3 = new book3("HTML5", "황기태", "20000")
+        document.write("book:"+Book3.title3+", "+Book3.author3+", "+Book3.price3)
+    </script>
+</body>
+</html>
