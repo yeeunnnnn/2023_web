@@ -4,58 +4,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>과제 링크트리</title>
-    <link rel="stylesheet" href="./style.css">
+
+    <style>
+    /* fadein */
+        /* body,a {
+    text-decoration: none;
+    }
+        * {
+            animation: fadein 2s;
+        }
+        
+        @keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} */
+    h2 {
+        text-align: center;
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    div {
+        display: inline-block;
+    }
+    body {
+        background-color:rgb(245, 252, 255);
+    }
+    h4 {
+        color: rgb(45, 152, 162);
+    }
+    /* 버튼 */
+    button {
+  margin: 5px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-3 {
+  background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: rgba(2,126,251,1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+    </style>
 </head>
 <body>
-    <h2>과제 링크트리 </h2>
+    <header>
+        <h2>과제 링크트리 </h2>
+        <hr>
+    </header>
+
+    <!-- 1주차 -->
     <h3>1주차 과제</h3>
     <h4>chapter 01</h4>
-    <a href="1week/1.html">실습문제 1번</a> <br>
-    <a href="1week/2.html">실습문제 2번</a> <br>
-    <a href="1week/3.html">실습문제 3번</a> <br>
-    <a href="1week/4.html">실습문제 4번</a> <br>
-    <a href="1week/5.html">Open Challenge 01</a> <br>
+        <script>
+            for (let c1=1; c1<5; c1++) {
+                document.write("<a href='1week/"+c1+".html'><button class='custom-btn btn-3'><span>실습문제 "+c1+"번</span></button></a>")
+            }
+        </script>
+    <a href="1week/5.html"><button class="custom-btn btn-3"><span>Open Challenge 01</span></button></a><br><br>
     
+
+    <!-- 2주차 -->
     <h3>2주차 과제</h3>
     <h4>chapter 02</h4>
-    <a href="2week/2.html">실습문제 1번</a> <br>
-    <a href="2week/3.html">실습문제 2번</a> <br>
-    <a href="2week/4.html">실습문제 3번</a> <br>
-    <a href="2week/5.html">실습문제 4번</a> <br>
-    <a href="2week/6.html">실습문제 5번</a> <br>
-    <a href="2week/7.html">실습문제 6번</a> <br>
-    <a href="2week/8.html">실습문제 7번</a> <br>
-    <a href="2week/9.html">실습문제 8번</a> <br>
-    <a href="2week/1.html">Open Challenge 02</a> <br>
 
+    <script>
+        for (let c2=1; c2<9; c2++) {
+            document.write("<a href='2week/"+c2+".html'><button class='custom-btn btn-3'><span>실습문제 "+c2+"번</span></button></a>")
+        }
+    </script>
+    <a href="2week/1.html"><button class="custom-btn btn-3"><span>Open Challenge 02</span></button></a><br><br>
+
+    <!-- 3주차 -->
     <h3>3주차 과제</h3>
     <h4>chapter 04</h4>
-    <a href="./3week/4-1.html">실습문제 1번</a><br>
-    <a href="./3week/4-2.html">실습문제 2번</a><br>
-    <a href="./3week/4-3.html">실습문제 3번</a><br>
-    <a href="./3week/4-4.html">실습문제 4번</a><br>
-    <a href="./3week/4-5.html">실습문제 5번</a><br>
-    <a href="./3week/4-6.html">실습문제 6번</a><br>
-    <a href="./3week/4-7.html">실습문제 7번</a><br>
-    <a href="./3week/4-8.html">실습문제 8번</a><br>
-    <a href="./3week/4-9.html">실습문제 9번</a><br>
-    <a href="./3week/4_OpenChallenge.html">Open Challenge 04</a><br>
-
+    
+    <script>
+        for (let c3=1; c3<10; c3++) {
+            document.write("<a href='3week/4-"+c3+".html'><button class='custom-btn btn-3'><span>실습문제 "+c3+"번</span></button></a>")
+        }
+    </script>
+    <a href="./3week/4_OpenChallenge.html"><button class="custom-btn btn-3"><span>Open Challenge 04</span></button></a><br><br>
 
     <h4>chapter 05</h4>
-    <a href="./3week/5-1.html">실습문제 1번</a><br>
-    <a href="./3week/5-2.html">실습문제 2번</a><br>
-    <a href="./3week/5-3.html">실습문제 3번</a><br>
-    <a href="./3week/5-5.html">실습문제 4번</a><br>
-    <a href="./3week/5-5.html">실습문제 5번</a><br>
-    <a href="./3week/5-6.html">실습문제 6번</a><br>
-    <a href="./3week/5-7.html">실습문제 7번</a><br>
-    <a href="./3week/5-8.html">실습문제 8번</a><br>
-    <a href="./3week/5-9.html">실습문제 9번</a><br>
-    <a href="./3week/5-10.html">실습문제 10번</a><br>
-    <a href="./3week/5_Openchallenge.html">Open Challenge 05</a> <br>
+    <script>
+        for (let c4=1; c4<11; c4++) {
+            document.write("<a href='3week/5-"+c4+".html'><button class='custom-btn btn-3'><span>실습문제 "+c4+"번</span></button></a>")
+        }
+    </script>
+    <a href="./3week/5_OpenChallenge.html"><button class="custom-btn btn-3"><span>Open Challenge 05</span></button></a><br><br>
+    <a href="./3week/옌자기소개.html"><button class="custom-btn btn-3"><span>자기소개 페이지</span></button></a><br><br>
 
-    <a href="./3week/옌자기소개.html">자기소개 페이지</a><br>
 
+    <!-- 4주차 -->
+    <h3>4주차 과제</h3>
+    <h4>chapter 06</h4>
+    <script>
+        for (let c5=0; c5<9; c5++) {
+            document.write("<a href='./4week/html/6-"+c5+".html'><button class='custom-btn btn-3'><span>실습문제 "+c5+"번</span></button></a>")
+        }
+    </script>
+    <a href="./4week/html/OpenChallenge06.html"><button class="custom-btn btn-3"><span>Open Challenge 06</span></button></a><br><br>
+
+
+    <h4>chapter 07</h4>
+    <script>
+        for (let c6=1; c6<11; c6++) {
+            document.write("<a href='./4week/html/7-"+c6+".html'><button class='custom-btn btn-3'><span>실습문제 "+c6+"번</span></button></a>")
+        }
+    </script>
+    <a href="./4week/html/OpenChallenge07.html"><button class="custom-btn btn-3"><span>Open Challenge 07</span></button></a><br><br>
+
+    
 </body>
 </html>
