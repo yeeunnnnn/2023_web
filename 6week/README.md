@@ -2,6 +2,10 @@
 
 ---
 
+# php home
+http://sugh002.dothome.co.kr/index.php
+
+
 ### php 1번
 http://sugh002.dothome.co.kr/php1.php
 ### php 2번
