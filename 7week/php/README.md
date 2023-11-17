@@ -7,15 +7,15 @@ http://sugh002.dothome.co.kr/index.php
 
 
 - ### php 1번
-http://sugh002.dothome.co.kr/7-1.php
+🔎 http://sugh002.dothome.co.kr/7-1.php
 - ### php 2번
-http://sugh002.dothome.co.kr/7-2.php
+🔎 http://sugh002.dothome.co.kr/7-2.php
 - ### php 3번
-http://sugh002.dothome.co.kr/7-3.php
+🔎 http://sugh002.dothome.co.kr/7-3.php
 - ### php 4번
-http://sugh002.dothome.co.kr/7-4.php
+🔎 http://sugh002.dothome.co.kr/7-4.php
 - ### php 5번
-http://sugh002.dothome.co.kr/7-5.php
+🔎 http://sugh002.dothome.co.kr/7-5.php
 
 <br><br><br><br><br><br><br><br>
 
