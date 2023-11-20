@@ -1,0 +1,7 @@
+강빨강 	20	여	red@kyungsung.ac.kr
+강주황	37	남	orange@kyungsung.ac.kr
+강노랑	21	여	yellow@kyungsung.ac.kr
+강초록	36	여	green@kyungsung.ac.kr
+강파랑	22	남	blue@kyungsung.ac.kr
+강남색	35	남	navy@kyungsung.ac.kr
+강보라	33	여	purple@kyungsung.ac.kr
